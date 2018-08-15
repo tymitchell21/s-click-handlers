@@ -17,6 +17,7 @@ Each TODO indicates a place where you need to write some additional JavaScrip
 * * *
 
 ![Edwin_the_duck.jpg](https://i.snag.gy/xZgaDe.jpg)
+
 **Edwin the Duck Says:**
 _In this exercise, the HTML, CSS, and JavaScript have all been combined together into a single file. That's OK for a small project like this. In general, though, it's a good practice to separate the markup, stylesheets, and scripts into independent files._
 
