@@ -15,6 +15,7 @@
         <h2>1. Color changer</h2>
         <button id="gray_button">Gray</button>
         <button id="blue_button">Blue</button>
+        <button id="pink_button">Pink</button>
         <div id="color_box" class="gray"></div>        
         <script>
             const color_box = document.getElementById("color_box");
@@ -34,6 +35,10 @@
              * Add a third button (and the associated event handler)
              * to support an additional color: pink
              */
+            const pink_button = document.getElementById("pink_button");
+            pink_button.onclick = function () {
+                color_box.className = "pink";
+            };
         </script>
 
         <hr>
@@ -54,6 +59,8 @@
                  * then updates the text content of "countspan"
                  * to show the current value of "count".
                  */
+                 count+=1;
+                 countspan.innerHTML = count;
             }
         </script>
 
